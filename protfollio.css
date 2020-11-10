@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1452d9;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #9b30b3;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.8rem;
+}
+
+hr {
+    border: dotted lightgray 6px;
+    border-bottom: none;
+    margin: 50px auto;
+}
+
+h4 {
+    text-align: center;
+    color: #421C52;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    color: #d0dbf2;
+    margin: 0;
+}
+
+video {
+    margin: auto;
+    display: block;
+
+}
+
+/**********************************************/
+/*index*/
+
+.homecontainer {
+
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url("https://i1.wp.com/blog.alexdevero.com/wp-content/uploads/2015/02/css-code-e1517469545230.jpeg?resize=768%2C474&ssl=1");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 18px;
+
+}
+
+.bigsur {
+    width: 85%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index-reference {
+    padding-top: 16.5%;
+}
+
+
+/**********************************************/
+/*Common*/
+
+
+.common-format {
+    padding: 1% 7%;
+}
+
+
+
+.bottom-info {
+    border: solid darkgray 1px;
+    border-bottom: none;
+    padding: 0;
+}
+
+/*img and other directions*/
+/**********************************************/
+.background {
+    background-color: #fc7e3a;
+    /* height: 90vh; */
+}
+
+.copyrights {
+    background-color: #6595eb;
+    height: 100;
+}
+
+.centered {
+    color: #3737ed;
+    font-size: 10.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background-image {
+    height: 100%;
+}
+
+
+.explore-title {
+    margin: 0;
+    text-align: center;
+    padding: 4% 3%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+.sch-img {
+    float: left;
+    margin-right: 30px;
+    width: 40%;
+    height: 40%;
+}
+.power-img {
+    float: left;
+    margin-right: 30px;
+    width: 50%;
+    height: 60%;
+}
+.chem-img {
+    float: right;
+    margin-right: 30px;
+    width: 45%;
+    height: 39%;
+}
+.ski-img {
+    float: left;
+    margin-right: 30px;
+    width: 70%;
+    height: 80%;
+}
+
+.mac-img-right {
+
+    margin-left: 350px;
+    width: 50%;
+}
+.paragraph {
+    font-size: 19.5px;
+}
+.contactgmail {
+    font-size: 20px;
+    color: #ff0004
+}
+.taichung-img {
+    width: 70%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cayenne-img {
+
+}
+.contact-img {
+    width: 50%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**********************************************/
+/*contact section*/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #3737ed;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .paragraph {
+    border-radius: 5px;
+    background-color: #f39461;
+    padding: 20px;
+  }
