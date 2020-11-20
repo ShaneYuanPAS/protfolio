@@ -158,6 +158,12 @@ video {
     width: 70%;
     height: 80%;
 }
+.shiga-img {
+    float: left;
+    margin-right: 30px;
+    width: 70%;
+    height: 80%;
+}
 
 .mac-img-right {
 
@@ -178,7 +184,10 @@ video {
     margin-right: auto;
 }
 .cayenne-img {
-
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    height: 80%;
 }
 .contact-img {
     width: 50%;
@@ -221,3 +230,59 @@ input[type=text], select {
     background-color: #f39461;
     padding: 20px;
   }
+
+/* mobile screen size setting */
+  @media only screen and (max-width: 600px) {
+    .centered {
+        color: #3737ed;
+        font-size: 5.2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    .bigsur {
+        width: 100%;
+        height: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .paragraph {
+        border-radius: 5px;
+        background-color: #f39461;
+        padding: 23px;
+      }
+    .ski-img {
+        width: 70%;
+        height: 100%;
+    }
+    .taichung-img {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .power-img {
+        margin-right: 30px;
+        width: 100%;
+        height: 60%;
+    }
+    .chem-img {
+        float: right;
+        width: 45%;
+        height: 39%;
+    }
+    .contact-img {
+        width: 80%;
+        height: 25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .shiga-img {
+        width: 100%;
+        height: 80%;
+    }
+    .cayenne-img {
+        width: 100%;
+        height: 100%;
+    }
+}
